@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- !bootstrap icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="css/main.css" />
+     <link rel="stylesheet" href="css/gelatinas-theme.css" />
+    
+  <!-- !Glide.js Css CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.min.css" />
+  
+    <title>Gelatinas | Contacto</title>
+    <style>
+    :root {
+      --primary-color: #FF69B4;
+      --secondary-color: #FFB6C1;
+      --accent-color: #FF1493;
+      --light-pink: #FFF0F5;
+      --dark-text: #4A4A4A;
+    }
+    
+    .global-notification {
+      background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+      animation: slideGradient 3s ease infinite;
+    }
+    
+    @keyframes slideGradient {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+    
+    .logo {
+      font-weight: 800;
+      font-size: 24px;
+      background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .slider-title {
+      color: var(--accent-color);
+      font-weight: 600;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
+    }
+    
+    .btn-primary {
+      background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+      border: none;
+      transition: transform 0.3s ease;
+    }
+    
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 5px 15px rgba(255, 105, 180, 0.4);
+    }
+    
+    .category-image {
+      transition: transform 0.3s ease;
+    }
+    
+    .category-item:hover .category-image {
+      transform: scale(1.1) rotate(5deg);
+    }
+    
+    .product-item {
+      transition: transform 0.3s ease;
+    }
+    
+    .product-item:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 25px rgba(255, 105, 180, 0.3);
+    }
+  </style>
+</head>
+
+<body>
+    <!-- ! header start -->
+    <header>
+    <div class="global-notification">
+      <div class="container">
+        <p>
+          🍮 ¡PROMOCIÓN ESPECIAL! TODAS LAS GELATINAS CON 20% DE DESCUENTO - ENVÍO GRATIS EN PEDIDOS MAYORES A 500 Bs.
+          <a href="shop.html" style="color: white; text-decoration: underline;">¡ORDENAR AHORA!</a>
+        </p>
+      </div>
+    </div>
+    <div class="header-row">
+      <div class="container">
+        <div class="header-wrapper">
+          <div class="header-mobile">
+            <i class="bi bi-list" id="btn-menu"></i>
+          </div>
+          <div class="header-left">
+            <a href="index.html" class="logo">🍮 GeliFrut</a>
+          </div>
+          <div class="header-center" id="sidebar">
+            <nav class="navigation">
+              <ul class="menu-list">
+                <li class="menu-list-item">
+                  <a href="index.html" class="menu-link active">Inicio
+                    <i class="bi bi-chevron-down"></i>
+                  </a>
+                  <div class="menu-dropdown-wrapper">
+                    <ul class="menu-dropdown-content">
+                      <li><a href="#">Nosotros</a></li>
+                      <li><a href="#">Galería</a></li>
+                      <li><a href="#">Testimonios</a></li>
+                      <li><a href="#">Promociones</a></li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="menu-list-item megamenu-wrapper">
+                  <a href="shop.html" class="menu-link">Catálogo
+                    <i class="bi bi-chevron-down"></i>
+                  </a>
+                  <div class="menu-dropdown-wrapper">
+                    <div class="menu-dropdown-megamenu">
+                      <div class="megamenu-links">
+                        <div class="megamenu-products">
+                          <h3 class="megamenu-product-title">Por Categoría</h3>
+                          <ul class="megamenu-menu-list">
+                            <li><a href="#">Gelatinas Individuales</a></li>
+                            <li><a href="#">Gelatinas Decoradas</a></li>
+                            <li><a href="#">Gelatinas Premium</a></li>
+                            <li><a href="#">Gelatinas Saludables</a></li>
+                            <li><a href="#">Para Adultos</a></li>
+                          </ul>
+                        </div>
+                        <div class="megamenu-products">
+                          <h3 class="megamenu-product-title">Por Ocasión</h3>
+                          <ul class="megamenu-menu-list">
+                            <li><a href="#">Cumpleaños</a></li>
+                            <li><a href="#">Bodas</a></li>
+                            <li><a href="#">Baby Shower</a></li>
+                            <li><a href="#">Eventos Corporativos</a></li>
+                            <li><a href="#">Día del Niño</a></li>
+                          </ul>
+                        </div>
+                        <div class="megamenu-products">
+                          <h3 class="megamenu-product-title">Por Tamaño</h3>
+                          <ul class="megamenu-menu-list">
+                            <li><a href="#">Individual (1-2 personas)</a></li>
+                            <li><a href="#">Familiar (6-8 personas)</a></li>
+                            <li><a href="#">Fiesta (10-15 personas)</a></li>
+                            <li><a href="#">Gran Evento (20+ personas)</a></li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="megamenu-single">
+                        <a href="#">
+                          <img src="img/mega-menu.jpg" alt="" />
+                        </a>
+                        <h3 class="megamenu-single-title">
+                          ¡PERSONALIZA TU GELATINA!
+                        </h3>
+                        <h4 class="megamenu-single-subtitle">
+                          Crea diseños únicos para tus eventos especiales
+                        </h4>
+                        <a href="#" class="megamenu-single-button btn btn-sm">Personalizar</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="menu-list-item">
+                  <a href="blog.html" class="menu-link">Recetas & Tips
+                  </a>
+                </li>
+                <li class="menu-list-item">
+                  <a href="contact.html" class="menu-link">Contacto</a>
+                </li>
+              </ul>
+            </nav>
+            <i class="bi-x-circle" id="close-sidebar"></i>
+          </div>
+          <div class="header-right">
+            <div class="header-right-links">
+              <a href="account.html" title="Mi Cuenta">
+                <i class="bi bi-person"></i>
+              </a>
+              <button class="search-button" title="Buscar">
+                <i class="bi bi-search"></i>
+              </button>
+              <a href="#" title="Favoritos">
+                <i class="bi bi-heart"></i>
+              </a>
+              <div class="header-cart">
+                <a href="cart.html" class="header-cart-link" title="Carrito">
+                  <i class="bi bi-bag"></i>
+                  <span class="header-cart-count">0</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+    <!-- ! header end -->
+
+    <!-- ! modal search start -->
+    <div class="modal-search">
+    <div class="modal-wrapper">
+      <h3 class="modal-title">Buscar gelatinas</h3>
+      <p class="modal-text">
+        Escribe el sabor, ocasión o tipo de gelatina que buscas.
+      </p>
+      <div class="search">
+        <input type="text" placeholder="Ej: fresa, cumpleaños, mosaico..." />
+        <button><i class="bi bi-search"></i></button>
+      </div>
+      <div class="search-result">
+        <div class="search-heading">
+          <h3>RESULTADOS</h3>
+        </div>
+        <div class="results">
+        </div>
+      </div>
+      <i class="bi bi-x-circle" id="close-modal-search"></i>
+    </div>
+  </div>
+    <!-- ! modal search end -->
+
+ 
+
+    <!-- ! contact start -->
+    <section class="contact">
+  <div class="contact-top">
+    <div class="contact-map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d293.34939896729907!2d-68.68547195345704!3d-16.041344444298314!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x915e6557c4c6ac37%3A0xdbcca3d04fd11226!2sPlaza%20Avaroa!5e0!3m2!1ses-419!2sbo!4v1758923636064!5m2!1ses-419!2sbo"
+        width="100%"
+        height="500"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+
+  <div class="contact-bottom">
+    <div class="container">
+      <div class="contact-texts">
+        <h4>Contáctanos</h4>
+        <h2>Estamos para servirte</h2>
+        <p>Si tienes dudas sobre nuestros sabores, pedidos especiales o quieres más información sobre nuestras gelatinas, no dudes en escribirnos. ¡Nos encanta escucharte!</p>
+      </div>
+
+      <div class="contact-elements">
+        <form class="contact-form">
+          <div>
+            <label for="">Tu Nombre
+              <span>*</span>
+            </label>
+            <input type="text" required>
+          </div>
+          <div>
+            <label for="">Tu Correo Electrónico
+              <span>*</span>
+            </label>
+            <input type="email" required>
+          </div>
+          <div>
+            <label for="">Asunto
+              <span>*</span>
+            </label>
+            <input type="text" required>
+          </div>
+          <div>
+            <label for="">Tu Mensaje
+              <span>*</span>
+            </label>
+            <textarea required></textarea>
+          </div>
+          <button class="btn btn-sm form-button">Enviar Mensaje</button>
+        </form>
+
+        <div class="contact-info">
+          <div class="contact-info-item">
+            <strong>Gelatinas Delicias</strong>
+            <p class="contact-streets">Av.  #123, Mercado Central, Achacachi - Bolivia</p>
+            <div class="contact-informations">
+              <a href="tel:+59171234567">Teléfono: +591 71234567</a>
+              <a href="mailto:gelatinasdelicias@gmail.com">Email: gelatinasdelicias@gmail.com</a>
+            </div>
+          </div>
+
+          <div class="contact-info-item">
+            <strong>Horario de Atención</strong>
+            <p class="contact-date">Lunes a Viernes: 08:00 - 18:00</p>
+            <p>Sábados: 08:00 - 13:00</p>
+            <p>Domingos cerrado</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- ! contact end -->
+
+<!-- ! social media start -->
+<section class="social-media">
+  <div class="container" style="text-align: center; padding: 40px 0;">
+    <h2 style="color: var(--accent-color); margin-bottom: 20px;">
+      🌸 Síguenos en Redes Sociales 🌸
+    </h2>
+    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+      
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/gelifrut_123?utm_source=qr&igsh=ZGM2ejB0dzQxejZy" target="_blank" 
+         style="display: flex; align-items: center; gap: 10px; 
+                background: #E4405F; color: white; padding: 12px 20px; 
+                border-radius: 8px; text-decoration: none; font-weight: 600;">
+        <i class="bi bi-instagram"></i> Instagram
+      </a>
+
+      <!-- TikTok -->
+      <a href="https://www.tiktok.com/@gelifrut123?is_from_webapp=1&sender_device=pc" target="_blank" 
+         style="display: flex; align-items: center; gap: 10px; 
+                background: #010101; color: white; padding: 12px 20px; 
+                border-radius: 8px; text-decoration: none; font-weight: 600;">
+        <i class="bi bi-tiktok"></i> TikTok
+      </a>
+
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/profile.php?id=61581172452640" target="_blank" 
+         style="display: flex; align-items: center; gap: 10px; 
+                background: #1877F2; color: white; padding: 12px 20px; 
+                border-radius: 8px; text-decoration: none; font-weight: 600;">
+        <i class="bi bi-facebook"></i> Facebook
+      </a>
+
+    </div>
+  </div>
+</section>
+<!-- ! social media end -->
+    <!-- ! policy start -->
+    <section class="policy">
+    <div class="container">
+      <ul class="policy-list">
+        <li class="policy-item">
+          <i class="bi bi-truck"></i>
+          <div class="policy-texts">
+            <strong>ENVÍO GRATIS</strong>
+            <span>En pedidos mayores a $500</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-whatsapp"></i>
+          <div class="policy-texts">
+            <strong>WHATSAPP 24/7</strong>
+            <span>Respuesta inmediata</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-snow"></i>
+          <div class="policy-texts">
+            <strong>FRESCURA GARANTIZADA</strong>
+            <span>Refrigeración en todo momento</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-credit-card"></i>
+          <div class="policy-texts">
+            <strong>PAGO SEGURO</strong>
+            <span>Efectivo, tarjeta o transferencia</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+    <!-- ! policy end -->
+     <!-- ! social media start -->
+<section class="social-media">
+  <div class="container" style="text-align: center; padding: 40px 0;">
+    <h2 style="color: var(--accent-color); margin-bottom: 20px;">
+      🌸 Síguenos en Redes Sociales 🌸
+    </h2>
+    <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap;">
+      
+      <!-- Instagram -->
+      <a href="https://www.instagram.com/gelifrut_123?utm_source=qr&igsh=ZGM2ejB0dzQxejZy" target="_blank" 
+         style="display: flex; align-items: center; gap: 10px; 
+                background: #E4405F; color: white; padding: 12px 20px; 
+                border-radius: 8px; text-decoration: none; font-weight: 600;">
+        <i class="bi bi-instagram"></i> Instagram
+      </a>
+
+      <!-- TikTok -->
+      <a href="https://www.tiktok.com/@gelifrut123?is_from_webapp=1&sender_device=pc" target="_blank" 
+         style="display: flex; align-items: center; gap: 10px; 
+                background: #010101; color: white; padding: 12px 20px; 
+                border-radius: 8px; text-decoration: none; font-weight: 600;">
+        <i class="bi bi-tiktok"></i> TikTok
+      </a>
+
+      <!-- Facebook -->
+      <a href="https://www.facebook.com/profile.php?id=61581172452640" target="_blank" 
+         style="display: flex; align-items: center; gap: 10px; 
+                background: #1877F2; color: white; padding: 12px 20px; 
+                border-radius: 8px; text-decoration: none; font-weight: 600;">
+        <i class="bi bi-facebook"></i> Facebook
+      </a>
+
+    </div>
+  </div>
+</section>
+<!-- ! social media end -->
+
+
+    <!-- ! footer start -->
+    <section class="footer">
+    <div class="subscribe-contact-row">
+      <div class="container">
+        <div class="subscribe-contact-wrapper">
+          <div class="subscribe-wrapper">
+            <div class="footer-subscribe">
+              <div class="footer-subscribe-top">
+                <h3 class="subscribe-title">
+                  ¡Suscríbete y recibe ofertas exclusivas!
+                </h3>
+                <p class="subscribe-desc">
+                  Te enviaremos un cupón de $50 de descuento en tu primera compra mayor a $300.
+                </p>
+              </div>
+              <div class="footer-subscribe-bottom">
+                <form>
+                  <input type="email" placeholder="Ingresa tu correo electrónico" />
+                  <button class="btn">Suscribirme</button>
+                </form>
+                <p class="privacy-text">
+                  Al suscribirte aceptas nuestros
+                  <a href="#">Términos y Condiciones y Política de Privacidad.</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-wrapper">
+            <div class="footer-contact-top">
+              <h3 class="contact-title">¿Necesitas ayuda? <br>
+                📱 (+591) 
+              </h3>
+              <p class="contact-desc">Disponibles de Lunes a Domingo 9:00am – 8:00pm
+              </p>
+            </div>
+            <div class="footer-contact-bottom">
+              <div class="download-app">
+                <a href="#" style="display: inline-block; padding: 10px 20px; background: #25D366; color: white; border-radius: 8px; text-decoration: none; margin: 5px;">
+                  <i class="bi bi-whatsapp"></i> WhatsApp
+                </a>
+                <a href="https://www.instagram.com/gelifrut_123?utm_source=qr&igsh=ZGM2ejB0dzQxejZy" style="display: inline-block; padding: 10px 20px; background: #E4405F; color: white; border-radius: 8px; text-decoration: none; margin: 5px;">
+                  <i class="bi bi-instagram"></i> Instagram
+                </a>
+                
+              </div>
+              <p class="privacy-text">
+                <strong>Síguenos:</strong> Comparte fotos de tu gelatina y participa en sorteos mensuales.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="widgets-row">
+      <div class="container">
+        <div class="footer-widgets">
+          <div class="brand-info">
+            <div class="footer-logo">
+              <a href="index.html" class="logo">🍮 GeliFrut</a>
+            </div>
+            <div class="footer-desc">
+              Creamos gelatinas artesanales con ingredientes 100% naturales y de la más alta calidad. 
+              Cada gelatina es una obra de arte comestible hecha con amor.
+            </div>
+            <div class="footer-contact">
+              <p>
+                <a href="tel:+521234567890">📱 (+52) 123 456 78 90</a> -
+                <a href="mailto:pedidos@deliciasgelatinosas.com">✉️ pedidos@deliciasgelatinosas.com</a>
+              </p>
+            </div>
+          </div>
+          <div class="widget-nav-menu">
+            <h4>Información</h4>
+            <ul class="menu-list">
+              <li>
+                <a href="#">Sobre Nosotros</a>
+              </li>
+              <li>
+                <a href="#">Cómo Ordenar</a>
+              </li>
+              <li>
+                <a href="#">Política de Devoluciones</a>
+              </li>
+              <li>
+                <a href="#">Tiempos de Entrega</a>
+              </li>
+              <li>
+                <a href="#">Preguntas Frecuentes</a>
+              </li>
+            </ul>
+          </div>
+          <div class="widget-nav-menu">
+            <h4>Mi Cuenta</h4>
+            <ul class="menu-list">
+              <li>
+                <a href="#">Panel de Control</a>
+              </li>
+              <li>
+                <a href="#">Mis Pedidos</a>
+              </li>
+              <li>
+                <a href="#">Mis Favoritos</a>
+              </li>
+              <li>
+                <a href="#">Datos de Cuenta</a>
+              </li>
+              <li>
+                <a href="#">Rastrear Pedido</a>
+              </li>
+            </ul>
+          </div>
+          <div class="widget-nav-menu">
+            <h4>Catálogo</h4>
+            <ul class="menu-list">
+              <li>
+                <a href="#">Más Vendidas</a>
+              </li>
+              <li>
+                <a href="#">Nuevos Sabores</a>
+              </li>
+              <li>
+                <a href="#">Ofertas</a>
+              </li>
+              <li>
+                <a href="#">Personalizadas</a>
+              </li>
+              <li>
+                <a href="#">Eventos Especiales</a>
+              </li>
+            </ul>
+          </div>
+          <div class="widget-nav-menu">
+            <h4>Categorías</h4>
+            <ul class="menu-list">
+              <li>
+                <a href="#">Gelatinas Clásicas</a>
+              </li>
+              <li>
+                <a href="#">Mosaico</a>
+              </li>
+              <li>
+                <a href="#">3 Leches</a>
+              </li>
+              <li>
+                <a href="#">Decoradas</a>
+              </li>
+              <li>
+                <a href="#">Saludables</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-row">
+      <div class="copyright-row">
+        <div class="container">
+          <div class="footer-copyright">
+            <div class="site-copyright">
+              <p>
+                Copyright 2025 © GeliFrut. Todos los derechos reservados.
+                Hecho con 💖 y mucha grenetina.
+              </p>
+            </div>
+            <a href="#">
+              <img src="img/footer/cards.png" alt="">
+            </a>
+            <div class="footer-menu">
+              <ul class="footer-menu-list">
+                <li class="list-item">
+                  <a href="#">Política de Privacidad</a>
+                </li>
+                <li class="list-item">
+                  <a href="#">Términos y Condiciones</a>
+                </li>
+                <li class="list-item">
+                  <a href="#">Política de Devoluciones</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- ! footer end -->
+
+    <!-- scripts start -->
+    <script src="js/main.js" type="module"></script>
+    <!-- scripts end -->
+</body>
+
+</html>

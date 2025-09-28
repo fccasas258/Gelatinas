@@ -1,0 +1,170 @@
+[
+    {
+        "id": 1,
+        "name": "Gelatina de Frutilla",
+        "price": {
+            "oldPrice": 10,
+            "newPrice": 8
+        },
+        "discount": 20,
+        "category": "individual",
+        "flavor": "Frutilla",
+        "servings": " 1 porciones",
+        "img": {
+            "singleImage": "img/products/product1/1.png",
+            "thumbs": [
+                "img/products/product1/1.png",
+                "img/products/product1/2.png",
+                "img/products/product1/3.png"
+            ]
+        },
+        "description": "Deliciosa gelatina mosaico con cubos de colores variados en base de leche. Perfecta para fiestas y reuniones familiares."
+    },
+    {
+        "id": 2,
+        "name": "GeliQuin",
+        "price": {
+            "oldPrice": 10,
+            "newPrice": 7
+        },
+        "discount": 30,
+        "category": "decorada",
+        "flavor": "7 sabores frutales",
+        "servings": "1 porciones",
+        "img": {
+            "singleImage": "img/products/product2/1.png",
+            "thumbs": [
+                "img/products/product2/1.png",
+                "img/products/product2/2.png",
+                "img/products/product2/3.png"
+            ]
+        },
+        "description": "Espectacular gelatina de 7 capas con todos los colores del arcoíris. Ideal para cumpleaños infantiles."
+    },
+    {
+        "id": 3,
+        "name": "GelifrutArle",
+        "price": {
+            "oldPrice": 10,
+            "newPrice": 10
+        },
+        "discount": 0,
+        "category": "individual",
+        "flavor": "Fresa natural",
+        "servings": "2-3 porciones",
+        "img": {
+            "singleImage": "img/products/product3/1.png",
+            "thumbs": [
+                "img/products/product3/1.png",
+                "img/products/product3/2.png",
+                "img/products/product3/3.png"
+            ]
+        },
+        "description": "Clásica gelatina de fresa con capa de crema batida. Suave, cremosa y deliciosa."
+    },
+    {
+        "id": 4,
+        "name": "Gelifrut Mix",
+        "price": {
+            "oldPrice": 65.00,
+            "newPrice": 55.00
+        },
+        "discount": 15,
+        "category": "premium",
+        "flavor": "Tres leches",
+        "servings": "12-15 porciones",
+        "img": {
+            "singleImage": "img/products/product4/1.png",
+            "thumbs": [
+                "img/products/product4/1.png",
+                "img/products/product4/2.png",
+                "img/products/product4/3.png"
+            ]
+        },
+        "description": "Exquisita gelatina tipo pastel con sabor a tres leches, decorada con fresas y durazno. Para ocasiones especiales."
+    },
+    {
+        "id": 5,
+        "name": "Gelatina de Durazno",
+        "price": {
+            "oldPrice": 70.00,
+            "newPrice": 60.00
+        },
+        "discount": 14,
+        "category": "premium",
+        "flavor": "Rompope artesanal",
+        "servings": "12-15 porciones",
+        "img": {
+            "singleImage": "img/products/product5/1.png",
+            "thumbs": [
+                "img/products/product5/1.png",
+                "img/products/product5/2.png",
+                "img/products/product5/3.png"
+            ]
+        },
+        "description": "Gelatina especial de temporada con auténtico sabor a rompope. Decorada con canela y frutos secos."
+    },
+    {
+        "id": 6,
+        "name": "Gelatina de Manzana",
+        "price": {
+            "oldPrice": 50.00,
+            "newPrice": 42.00
+        },
+        "discount": 16,
+        "category": "saludable",
+        "flavor": "Yogurt natural",
+        "servings": "8-10 porciones",
+        "img": {
+            "singleImage": "img/products/product1/1.png",
+            "thumbs": [
+                "img/products/product1/1.png",
+                "img/products/product1/2.png",
+                "img/products/product1/3.png"
+            ]
+        },
+        "description": "Opción más ligera con yogurt natural y frutos rojos frescos. Perfecta para cuidar tu línea sin sacrificar el sabor."
+    },
+    {
+        "id": 7,
+        "name": "Gelatina de Uvas",
+        "price": {
+            "oldPrice": 80.00,
+            "newPrice": 75.00
+        },
+        "discount": 6,
+        "category": "personalizada",
+        "flavor": "A elección",
+        "servings": "15-20 porciones",
+        "img": {
+            "singleImage": "img/products/product2/1.png",
+            "thumbs": [
+                "img/products/product2/1.png",
+                "img/products/product2/2.png",
+                "img/products/product2/3.png"
+            ]
+        },
+        "description": "Crea tu gelatina soñada. Elige sabores, colores, decoración y mensaje especial. Ideal para eventos corporativos y celebraciones únicas."
+    },
+    {
+        "id": 8,
+        "name": "Gelatina de Cherry",
+        "price": {
+            "oldPrice": 60.00,
+            "newPrice": 52.00
+        },
+        "discount": 13,
+        "category": "adultos",
+        "flavor": "Café y licor",
+        "servings": "10-12 porciones",
+        "img": {
+            "singleImage": "img/products/product3/1.png",
+            "thumbs": [
+                "img/products/product3/1.png",
+                "img/products/product3/2.png",
+                "img/products/product3/3.png"
+            ]
+        },
+        "description": "Para paladares adultos. Gelatina de café expreso con un toque de Baileys. Elegante y sofisticada."
+    }
+]
