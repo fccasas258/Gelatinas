@@ -28,10 +28,10 @@ productTitle.innerHTML = findProduct.name
 
 /* product price */
 const productOldPrice = document.querySelector(".old-price")
-productOldPrice.innerHTML = `$${findProduct.price.oldPrice.toFixed(2)}`
+productOldPrice.innerHTML = `Bs. ${findProduct.price.oldPrice.toFixed(2)}`
 
 const productNewPrice = document.querySelector(".new-price")
-productNewPrice.innerHTML = `$${findProduct.price.newPrice.toFixed(2)}`
+productNewPrice.innerHTML = `Bs. ${findProduct.price.newPrice.toFixed(2)}`
 
 /* product gallery */
 const singleImage = document.getElementById("single-image")
