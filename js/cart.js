@@ -14,9 +14,9 @@ function displayCartProduct() {
                 <i class="bi bi-x delete-cart" data-id=${item.id}></i>
             </td>
             <td>${item.name}</td>
-            <td>$${item.price.newPrice.toFixed(2)}</td>
+            <td>Bs. ${item.price.newPrice.toFixed(2)}</td>
             <td>${item.quantity}</td>
-            <td>$${(item.price.newPrice * item.quantity).toFixed(2)}</td>
+            <td>Bs. ${(item.price.newPrice * item.quantity).toFixed(2)}</td>
         </tr>
         `
     })
@@ -66,13 +66,13 @@ function saveCardValues() {
     let itemsTotal = 0
 
     cart.length > 0 && cart.map((item) => itemsTotal += item.price.newPrice * item.quantity)
-    subTotal.innerHTML = `$${itemsTotal.toFixed(2)}`
-    cartTotal.innerHTML = `$${itemsTotal.toFixed(2)}`
+    subTotal.innerHTML = `Bs. ${itemsTotal.toFixed(2)}`
+    cartTotal.innerHTML = `Bs. ${itemsTotal.toFixed(2)}`
     fastCargo.addEventListener("change", (e) => {
         if (e.target.checked) {
-            cartTotal.innerHTML = `$${(itemsTotal + fastCargoPrice).toFixed(2)}`
+            cartTotal.innerHTML = `Bs. ${(itemsTotal + fastCargoPrice).toFixed(2)}`
         } else {
-            cartTotal.innerHTML = `$${itemsTotal.toFixed(2)}`
+            cartTotal.innerHTML = `Bs. ${itemsTotal.toFixed(2)}`
         }
     })
 }
