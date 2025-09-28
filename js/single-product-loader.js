@@ -99,11 +99,11 @@ function updateProductInfo(product) {
     const oldPriceElement = document.querySelector('.old-price');
     
     if (newPriceElement) {
-        newPriceElement.textContent = `$${product.price.newPrice.toFixed(2)}`;
+        newPriceElement.textContent = `Bs. ${product.price.newPrice.toFixed(2)}`;
     }
     
     if (oldPriceElement && product.price.oldPrice) {
-        oldPriceElement.textContent = `$${product.price.oldPrice.toFixed(2)}`;
+        oldPriceElement.textContent = `Bs. ${product.price.oldPrice.toFixed(2)}`;
         oldPriceElement.style.display = 'inline';
     } else if (oldPriceElement) {
         oldPriceElement.style.display = 'none';
@@ -262,7 +262,7 @@ function generateAdditionalInfo(product) {
                 </tr>
                 <tr style="border-bottom: 1px solid #f0f0f0;">
                     <th style="padding: 15px; text-align: left; background: #FFF0F5;">Precio</th>
-                    <td style="padding: 15px;">$${product.price.newPrice.toFixed(2)} ${product.price.oldPrice ? `(antes $${product.price.oldPrice.toFixed(2)})` : ''}</td>
+                    <td style="padding: 15px;">Bs. ${product.price.newPrice.toFixed(2)} ${product.price.oldPrice ? `(antes Bs. ${product.price.oldPrice.toFixed(2)})` : ''}</td>
                 </tr>
                 <tr style="border-bottom: 1px solid #f0f0f0;">
                     <th style="padding: 15px; text-align: left; background: #FFF0F5;">Tiempo de entrega</th>
